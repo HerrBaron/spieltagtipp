@@ -18,7 +18,9 @@
             <div class="jumbotron">
                 <h1>Welcome to spieltagtipp.de</h1>
                 <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
-                <p><a class="btn btn-primary btn-lg" onClick='window.location.href = "login.php" '>Login</a> <a class="btn btn-primary btn-lg" onClick='window.location.href = "register.php" '>Register</a></p>
+                <p><a class="btn btn-primary btn-lg" onClick='window.location.href = "login.php" '>Login</a> 
+                    <a class="btn btn-primary btn-lg" onClick='window.location.href = "register.php" '>Register</a></p>
+                    <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Launch demo modal</button>
             </div>
         </div><!-- /.container -->
         
